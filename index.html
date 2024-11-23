@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvedor Frontend</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="#">
+            <h1 class="logo">CR</h1>
+        </a>
+
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#projetos">Meus projetos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="informacoes">
+            <h1>Olá! Sou Carlos Reis</h1>
+            <p>Um desenvolvedor frontend em formação apaixonado por tecnologia.</p>
+            <p>Estou sempre me desafiando com novos projetos e buscando feedback na comunidade de programação para que
+                eu possa melhorar cada vez mais, além de compartilhar meus conhecimentos e experiências fazendo certos
+                projetos.</p>
+            <p>Ah, também sou fã de jogos, filmes, musicas e café. ☕</p>
+
+            <ul class="redes-sociais">
+                <li>
+                    <a href="https://www.linkedin.com/in/carlos-andr%C3%A9-5496b6274/" title="Ir para o LinkedIn" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://wa.me/5511940782229" title="Enviar Mensagem no WhatsApp" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/Carl-Andr-Reis" title="Ir para o Github" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.instagram.com/sem_criatividade_pro_nick/profilecard/?igsh=a2J1NTNqdjVzN2Fs" title="Ir para o Instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container-foto">
+            <div class="foto sombra-interna">
+                <img src="./src/imagens/foto-grande.jpeg" alt="Foto do Portfólio do André">
+                <!-- A IMAGEM PRECISA SER QUADRADA -->
+
+            </div>
+        </div>
+    </section>
+
+    <section class="projetos" id="projetos">
+        <h2 class="titulo">Meus projetos</h2>
+
+        <!-- APENAS OS 3 PRIMEIROS PROJETOS FICARÃO A MOSTRA -->
+
+        <div class="container-projetos">
+            <div class="projeto ativo">
+                <a href="https://carl-andr-reis.github.io/x-men-szpc/" target="_blank">
+                    <img src="./src/imagens/Ciclope.jpg" alt="Projeto Landing page X-Men">
+                    <h3>Projeto 1</h3>
+
+                    <div class="informacoes-projeto">
+                        <p>HTML / CSS / JavaScript</p>
+                        <p>Feito como ponto de partida para o mundo da programação, foi o primeiro projeto que realizei.</p>
+                        <p>Conforme o visitante for mudando de personagem ao clicar ou passar o mouse por cima, a descrição do personagem e a imagem maior mudam.</p>
+                        <p>...</p>
+                        <p>🎮 Ver na Web</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto ativo">
+                <a href="https://github.com/Carl-Andr-Reis" target="_blank">
+                    <img src="./src/imagens/form-friend.jpeg" alt="Projeto Landing page Formulario">
+                    <h3>Projeto 2</h3>
+
+                    <div class="informacoes-projeto">
+                        <p>HTML / CSS / JavaScript</p>
+                        <p>Feito como solicitado, atualmente esse projeto está privado.</p>
+                        <p>...</p>
+                        <p>Ao colocar o nome correto e clicar no "Enter", a tela muda com uma transição suave e um texto é exibido, acompanhado com algumas imagens.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto ativo">
+                <a href="https://carl-andr-reis.github.io/prime/" target="_blank">
+                    <img src="./src/imagens/print.prime.jpeg" alt="Projeto Landing page Prime Video">
+                    <h3>Projeto 3</h3>
+
+                    <div class="informacoes-projeto">
+                        <p>HTML / CSS / JavaScript</p>
+                        <p>Feito com o intuito de simplificar o layout do serviço de streaming da Amazon, ao entrar, um aviso é exibido na tela, possui um formulario, há alguns icones que levam o visitante para os serviços oficiais da Amazon.</p>
+                        <p>...</p>
+                        <p>A versão mobile não está finalizada, ative o modo desktop no navegador mobile para uma melhor experiência.</p>
+                        <p>...</p>
+                        <p>🎮 Ver na Web</p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- O PROJETO ACIMA SERÁ DO PRIME VIDEO -->
+
+            
+            <!-- OS 2 PROJETOS ABAIXO (PROJETO 4 E 5) FICARÃO ESCONDIDOS NO BOTÃO -->
+
+            <div class="projeto">
+                <a href="https://" target="_blank">
+                    <img src="./src/imagens/vampira.jpg" alt="Projeto Landing page Portfólio">
+                    <h3>Projeto 4</h3>
+
+                    <div class="informacoes-projeto">
+                        <p>HTML / CSS / JavaScript</p>
+                        <p>Desenvolvido para compilar os projetos realizados de uma forma organizada e coesa.</p>
+                        <p>Possui links e imagens com uma breve descrição sobre cada projeto, aqui você também poderá encontrar alguns icones para redes sociais e para a pagina no github.</p>
+                        <p>...</p>
+                        <p>🎮 Ver na Web</p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- O PROJETO ACIMA SERÁ O PORTFÓLIO -->
+
+            <div class="projeto">
+                <a href="#" target="_blank">
+                    <img src="./src/imagens/interrogation.jpeg" alt="Em Breve">
+                    <h3>Projetos</h3>
+
+                    <div class="informacoes-projeto">
+                        <p>Isso é tudo por enquanto, sempre estou a procura de novas ideias para realizar em um projeto web</p>
+                        <p>...</p>
+                        <p>Mais Projetos em Breve</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- O PROJETO ACIMA SERÁ UMA IMAGEM COM UM SINAL DE INTERROGAÇÃO (?) E QUANDO O VISITANTE PASSAR O MOUSE EM CIMA VAI APARECER A SEGUINTE MENSAGEM: "MAIS PROJETOS EM BREVE" -->
+
+        <button class="btn-mostrar-projetos">Mostrar Mais</button>
+    </section>
+
+    <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>
+
+
